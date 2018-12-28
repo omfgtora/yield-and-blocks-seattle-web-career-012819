@@ -3,6 +3,7 @@ def hello_t(stuff)
     yield(stuff)
   else
     puts "Hey! No block was given!"
+  end
 end
 
 hello_t
